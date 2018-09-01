@@ -54,8 +54,6 @@ When users increase stagnates, the popularization rate stay same, and the user i
 - The Europe, Asia and Pacific and Rest of World market are still not saturated. I assume they will reach saturation at the end of 2021(three years from now). The assumption I made here may be not accurate but reasonable.
 - I also assume that the popularization rate in Europe, Asia and Pacific and Rest of World after saturation will be lower than one in US and Canada by 10%, 30%, 25%. The assumption I made here is conservative.
 
-![screen shot 2018-08-31 at 10 31 26 am](https://user-images.githubusercontent.com/31684373/44950183-525a2680-adf6-11e8-93c7-ef2591f908f9.png)
-
 ![screen shot 2018-08-31 at 10 43 37 am](https://user-images.githubusercontent.com/31684373/44950190-7a498a00-adf6-11e8-94bd-932533640f14.png)
 
 
