@@ -4,7 +4,6 @@
 - Facebook is the biggest social network company in the world.
 - The number of users are one of the most significant metrics for stakeholders. The company disclose number of users in four regions( US and Canada, Europe, Asia and Pacific, Rest of World ) quarterly.
 - In the last half year, Facebook stock price has experienced two sharp falls because of market concerns about user growth.(one by Cambridge Analytica scandal, the other by General Data Protection Regulation (GDPR) compliance).<br>
-<br>
 ![screen shot 2018-08-31 at 3 12 06 pm](https://user-images.githubusercontent.com/31684373/44950007-1f159880-adf2-11e8-9aa3-328dea31b128.png)
 
 Articles link to this theme:<br>
