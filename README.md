@@ -3,18 +3,30 @@
 ## 1. Why I have this question:
 - Facebook is the biggest social network company in the world.
 - The number of users are one of the most significant metrics for stakeholders. The company disclose number of users in four regions( US and Canada, Europe, Asia and Pacific, Rest of World ) quarterly.
-- In the last half year, Facebook stock price has experienced two sharp falls because of market concerns about user growth.(one by Cambridge Analytica scandal, the other by General Data Protection Regulation (GDPR) compliance).
+- In the last half year, Facebook stock price has experienced two sharp falls because of market concerns about user growth.(one by Cambridge Analytica scandal, the other by General Data Protection Regulation (GDPR) compliance).<br>
+<br>
 ![screen shot 2018-08-31 at 3 12 06 pm](https://user-images.githubusercontent.com/31684373/44950007-1f159880-adf2-11e8-9aa3-328dea31b128.png)
 
-Articles link to this theme:
-https://www.nytimes.com/2018/03/19/technology/facebook-cambridge-analytica-explained.html 
-https://qz.com/1234414/should-you-delete-facebook-what-are-the-alternatives/
-
+Articles link to this theme:<br>
+https://www.nytimes.com/2018/03/19/technology/facebook-cambridge-analytica-explained.html <br>
+https://qz.com/1234414/should-you-delete-facebook-what-are-the-alternatives/<br>
+<br>
 Background Knowledge: 
 
 - Daily Active User(DAU): Facebook defines a daily active user as a registered Facebook user who logged in and visited Facebook through Facebook website or a mobile device, or used facebook Messenger application (and is also a registered Facebook user), on a given day. 
 
 The definition of DAU by Facebook is relatively more strict in social network industry.
+
+
+## 2. US people have more and more Leisure Time<br>
+![screen shot 2018-09-01 at 2 30 31 pm](https://user-images.githubusercontent.com/31684373/44950067-a1eb2300-adf3-11e8-91c7-752976ee3d1e.png)
+<br>
+
+## 3. How we spend leisure time?<br>
+![screen shot 2018-09-01 at 2 31 43 pm](https://user-images.githubusercontent.com/31684373/44950085-c8a95980-adf3-11e8-867b-b845ef55da8c.png)
+<br>
+
+## 4. Which social platform might benefit most?<br>
 
 
 ## 2. How I simulate users growth?
