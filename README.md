@@ -27,33 +27,36 @@ The definition of DAU by Facebook is relatively more strict in social network in
 <br>
 
 ## 4. Which social platform might benefit most?<br>
+![screen shot 2018-09-01 at 9 00 17 am](https://user-images.githubusercontent.com/31684373/44950164-ccd67680-adf5-11e8-86fa-9a745bf93fee.png)
+<br>
+![screen shot 2018-09-01 at 2 48 36 pm](https://user-images.githubusercontent.com/31684373/44950176-22128800-adf6-11e8-9bc0-f0d124f947f2.png)
+<br>
 
-
-## 2. How I simulate users growth?
-### 2.1 My understanding of Facebook user growth in the next 5 years
+## 5. How I simulate users growth?
+### 5.1 My understanding of Facebook user growth in the next 5 years
 - Based on improving algorithm and data scientists' research, user experience gets better and better.
 - Social network has a special attribute: the more connected people in this network, the easier to join, and the harder to leave.
 - In most part of world, Facebook has no similar size opponent and no scalable competition.
 
-### 2.2 Two stages of user growth simulation
+### 5.2 Two stages of user growth simulation
 Based on my understanding of Facebook user growth, I divide the user growth into two stages.
-> **2.2.1 User growth before saturation**<br>
+> **5.2.1 User growth before saturation**<br>
 Users increase very fast at the beginning, and acceleration slows down when the user base becomes bigger and bigger, and then stagnates at the peak. This user acquisition pace seems perfectly fit the left part of open faced two degree polynomial curve. The basic function is: <br>
 $y=b\left(x-a\right)^2+c$ <br>
 In this equation, a is the limit time, and c is limit peak, b determines the user increase rate.<br>
 If we go further with the equation: <br>
 $y=bx^2-2abx+ba^2+c$
 
-> **2.2.2 User growth after saturation**<br>
+> **5.2.2 User growth after saturation**<br>
 When users increase stagnates, the popularization rate stay same, and the user increases as the population increases naturally. So I calculate the users number as popularization rate times the whole population.
 
-### 2.3 Some assumptions based on consideration of reality factors
+### 5.3 Some assumptions based on consideration of reality factors
 - The US and Canada market is saturated now in terms of number of users. The popularization rate is really high(More than half of the population are Facebook users).
 - The Europe, Asia and Pacific and Rest of World market are still not saturated. I assume they will reach saturation at the end of 2021(three years from now). The assumption I made here may be not accurate but reasonable.
 - I also assume that the popularization rate in Europe, Asia and Pacific and Rest of World after saturation will be lower than one in US and Canada by 10%, 30%, 25%. The assumption I made here is conservative.
 
-![facebook user growth estimation curve by geography](https://user-images.githubusercontent.com/31684373/44296185-1065a800-a26e-11e8-8467-b8d3fa1c0e8a.png)
+![screen shot 2018-08-31 at 10 31 26 am](https://user-images.githubusercontent.com/31684373/44950183-525a2680-adf6-11e8-93c7-ef2591f908f9.png)
 
-![facebook user estimation in 5 years](https://user-images.githubusercontent.com/31684373/44296195-4145dd00-a26e-11e8-8465-11ad740966c9.png)
+![screen shot 2018-08-31 at 10 43 37 am](https://user-images.githubusercontent.com/31684373/44950190-7a498a00-adf6-11e8-94bd-932533640f14.png)
 
 
