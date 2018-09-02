@@ -24,7 +24,7 @@ I exclude China population from Asia and Pacific region because Facebook is inac
 <br>
 
 ## 4. How I simulate users growth?
-![screen shot 2018-08-31 at 10 31 26 am](https://user-images.githubusercontent.com/31684373/44957969-ff33b280-ae8d-11e8-8e80-02930322e2a9.png)
+![screen shot 2018-09-01 at 10 15 02 am](https://user-images.githubusercontent.com/31684373/44957958-dc090300-ae8d-11e8-8ee0-a38501311ca8.png)
 
 
 ## 5.Estimation Results
