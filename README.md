@@ -7,7 +7,7 @@ I used python(pandas, numpy, seaborn and matplotlib) as my main technical tools.
 I download the leisure time data from department of labor website, collect user data manually from Facebook, Twitter and Snapchat's public report. <br>
 I also collect population data from website. http://www.worldometers.info/world-population/northern-america-population/ I exclude China population from Asia and Pacific region because Facebook is inaccessible in China.
 
-
+## Content
 ## 1. US people have more and more Leisure Time<br>
 ![screen shot 2018-09-01 at 2 30 31 pm](https://user-images.githubusercontent.com/31684373/44950067-a1eb2300-adf3-11e8-91c7-752976ee3d1e.png)
 <br>
@@ -23,28 +23,9 @@ I also collect population data from website. http://www.worldometers.info/world-
 <br>
 
 ## 4. How I simulate users growth?
-### 5.1 My understanding of Facebook user growth in the next 5 years
-- Based on improving algorithm and data scientists' research, user experience gets better and better.
-- Social network has a special attribute: the more connected people in this network, the easier to join, and the harder to leave.
-- In most part of world, Facebook has no similar size opponent and no scalable competition.
+![screen shot 2018-09-01 at 10 15 02 am](https://user-images.githubusercontent.com/31684373/44957958-dc090300-ae8d-11e8-8ee0-a38501311ca8.png)
 
-### 5.2 Two stages of user growth simulation
-Based on my understanding of Facebook user growth, I divide the user growth into two stages.
-> **5.2.1 User growth before saturation**<br>
-Users increase very fast at the beginning, and acceleration slows down when the user base becomes bigger and bigger, and then stagnates at the peak. This user acquisition pace seems perfectly fit the left part of open faced two degree polynomial curve. The basic function is: <br>
-$y=b\left(x-a\right)^2+c$ <br>
-In this equation, a is the limit time, and c is limit peak, b determines the user increase rate.<br>
-If we go further with the equation: <br>
-$y=bx^2-2abx+ba^2+c$
-
-> **5.2.2 User growth after saturation**<br>
-When users increase stagnates, the popularization rate stay same, and the user increases as the population increases naturally. So I calculate the users number as popularization rate times the whole population.
-
-### 5.3 Some assumptions based on consideration of reality factors
-- The US and Canada market is saturated now in terms of number of users. The popularization rate is really high(More than half of the population are Facebook users).
-- The Europe, Asia and Pacific and Rest of World market are still not saturated. I assume they will reach saturation at the end of 2021(three years from now). The assumption I made here may be not accurate but reasonable.
-- I also assume that the popularization rate in Europe, Asia and Pacific and Rest of World after saturation will be lower than one in US and Canada by 10%, 30%, 25%. The assumption I made here is conservative.
-
+## 5.Estimation Results
 ![screen shot 2018-08-31 at 10 43 37 am](https://user-images.githubusercontent.com/31684373/44950190-7a498a00-adf6-11e8-94bd-932533640f14.png)
 
 
