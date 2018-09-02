@@ -1,26 +1,28 @@
 # Facebook-user-estimation
 
-## 1. Why I have this question:
-- Facebook is the biggest social network company in the world.
-- The number of users are one of the most significant metrics for stakeholders. The company disclose number of users in four regions( US and Canada, Europe, Asia and Pacific, Rest of World ) quarterly.
-- In the last half year, Facebook stock price has experienced two sharp falls because of market concerns about user growth.(one by Cambridge Analytica scandal, the other by General Data Protection Regulation (GDPR) compliance).<br>
+## Libraries and Dependencies
+I used python(pandas, numpy, seaborn and matplotlib) as my main technical tools.
+
+## Datasets
+I download the leisure time data from department of labor website, collect user data manually from Facebook, Twitter and Snapchat's public report. <br>
+I also collect population data from website. http://www.worldometers.info/world-population/northern-america-population/ I exclude China population from Asia and Pacific region because Facebook is inaccessible in China.
 
 
-## 2. US people have more and more Leisure Time<br>
+## 1. US people have more and more Leisure Time<br>
 ![screen shot 2018-09-01 at 2 30 31 pm](https://user-images.githubusercontent.com/31684373/44950067-a1eb2300-adf3-11e8-91c7-752976ee3d1e.png)
 <br>
 
-## 3. How we spend leisure time?<br>
+## 2. How we spend leisure time?<br>
 ![screen shot 2018-09-01 at 2 31 43 pm](https://user-images.githubusercontent.com/31684373/44950085-c8a95980-adf3-11e8-867b-b845ef55da8c.png)
 <br>
 
-## 4. Which social platform might benefit most?<br>
+## 3. Which social platform might benefit most?<br>
 ![screen shot 2018-09-01 at 9 00 17 am](https://user-images.githubusercontent.com/31684373/44950164-ccd67680-adf5-11e8-86fa-9a745bf93fee.png)
 <br>
 ![screen shot 2018-09-01 at 2 48 36 pm](https://user-images.githubusercontent.com/31684373/44950176-22128800-adf6-11e8-9bc0-f0d124f947f2.png)
 <br>
 
-## 5. How I simulate users growth?
+## 4. How I simulate users growth?
 ### 5.1 My understanding of Facebook user growth in the next 5 years
 - Based on improving algorithm and data scientists' research, user experience gets better and better.
 - Social network has a special attribute: the more connected people in this network, the easier to join, and the harder to leave.
